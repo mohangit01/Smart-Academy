@@ -1,0 +1,430 @@
+# PROMPT TYPE: SYSTEM + USER + OUTPUT SPEC
+
+```text
+You are a senior full-stack software architect and AI platform engineer.
+
+Your task is to build a complete production-ready global AI-powered education ecosystem named SMART-ACADEMY.
+
+This must NOT be a static HTML page.
+Do NOT use PHP.
+
+Build a scalable, modular, enterprise-grade multi-page application using:
+
+Frontend Stack:
+- Next.js (latest App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Responsive mobile-first UI
+- Dark/light theme
+- SEO metadata
+- Accessibility support
+
+Backend Stack:
+- Next.js API routes and service-layer architecture
+- Prisma ORM
+- PostgreSQL
+- JWT/session-based authentication structure
+- Role-based access control
+- REST-style API architecture
+
+AI + Search Integrations:
+- OpenAI API integration structure
+- Google Custom Search API integration structure
+- YouTube Data API integration structure
+- AI summarization service structure
+- AI recommendation engine structure
+- Smart educational content aggregation pipeline
+
+Payments:
+- Stripe integration structure
+- Razorpay integration structure
+- PayPal-ready architecture
+- UPI-ready architecture
+
+Important Rules:
+- Use mock/demo data where API keys are unavailable.
+- Never pretend real APIs are active unless implemented.
+- Clearly label mock services.
+- Write scalable, reusable, maintainable code.
+- Use component-based architecture.
+- Use server actions/API abstraction where appropriate.
+- Use modern TypeScript best practices.
+- Create production-ready folder organization.
+- Include loading states, error handling, empty states, and skeleton loaders.
+- Include accessibility support and semantic HTML.
+- Include SEO metadata for all public pages.
+- Use premium UI inspired by Apple, Stripe, Linear, Framer, Canva, Coursera, and modern AI platforms.
+- Use glassmorphism, gradients, elegant spacing, smooth animation, soft shadows, and premium typography.
+- Avoid cheap template design.
+
+Create this folder structure:
+
+smart-academy/
+  src/
+    app/
+    components/
+    lib/
+    services/
+    hooks/
+    providers/
+    store/
+    styles/
+    data/
+    types/
+    config/
+    app/api/
+  prisma/
+  public/
+  docs/
+
+Create the following pages and routes:
+
+1. Home
+2. About
+3. Courses
+4. Course Details
+5. Degrees
+6. Skills Programs
+7. Schools & Institutions
+8. Teachers & Mentors
+9. Student Dashboard
+10. Teacher Dashboard
+11. Institution Dashboard
+12. Admin Dashboard
+13. AI Learning Assistant
+14. Community
+15. Job & Opportunity Portal
+16. Events & Webinars
+17. Blog & Resources
+18. Notes & Study Materials
+19. AI Smart Search
+20. Mobile App Preview
+21. Partnerships
+22. Pricing
+23. Contact
+24. Login
+25. Signup
+
+Homepage Requirements:
+- Premium hero section
+- AI-powered course search
+- Smart recommendations
+- Global statistics
+- Featured courses
+- Trending skills
+- Student success stories
+- Partner institutions
+- Teacher highlights
+- Placement/job highlights
+- Upcoming webinars
+- AI tutor preview
+- Community showcase
+- Mobile app preview
+- Newsletter signup
+- Mega footer
+
+Course Categories:
+- SMART-SCHOOL-K12
+- LKG
+- UKG
+- Primary
+- Secondary
+- Higher Secondary
+- Science
+- Commerce
+- Arts
+- Computer Science
+- AI & ML
+- Data Science
+- BCA
+- MCA
+- Cybersecurity
+- Cloud
+- Web Development
+- App Development
+- Blockchain
+- Robotics
+- IoT
+- BBA
+- MBA
+- Entrepreneurship
+- Marketing
+- Finance
+- HR
+- JEE
+- NEET
+- UPSC
+- CAT
+- GRE
+- GMAT
+- TOEFL
+- SAT
+- SSC
+- Banking
+- Engineering
+- Healthcare
+- Commerce
+- Arts
+- Law
+- Security
+
+Student Dashboard Features:
+- Enrolled courses
+- Progress tracking
+- AI recommendations
+- Notes and bookmarks
+- Certificates
+- Resume builder
+- Portfolio
+- Skill badges
+- Job recommendations
+- Calendar
+- Notifications
+
+Teacher Dashboard Features:
+- Course upload
+- Lesson management
+- Video/PDF uploads
+- Quiz builder
+- Live class tools
+- Attendance
+- Student analytics
+- Earnings dashboard
+- AI teaching assistant
+
+Institution Dashboard Features:
+- Student management
+- Teacher management
+- Departments
+- Batches
+- Reports
+- Placement analytics
+- Branded learning portal
+- Compliance tools
+
+Admin Dashboard Features:
+- User management
+- Course approvals
+- Content moderation
+- Payment management
+- Smart search source management
+- Analytics
+- Security logs
+- CMS controls
+
+AI Smart Content Auto Search System:
+- Search Google using Google Custom Search API
+- Search YouTube using YouTube Data API
+- Fetch educational PDFs where legally allowed
+- Fetch open educational resources
+- Fetch educational images and thumbnails
+- Fetch articles and references
+- Filter spam and low-quality sources
+- Summarize content using AI
+- Convert results into:
+  - Notes
+  - Flashcards
+  - Quizzes
+  - Structured learning materials
+- Organize by:
+  - Course
+  - Subject
+  - Topic
+  - Difficulty
+  - Language
+
+Build these reusable UI components:
+- Navbar
+- Sidebar
+- Footer
+- Mega menu
+- Hero sections
+- Course cards
+- Dashboard widgets
+- Charts
+- AI assistant chat UI
+- Search bars
+- Modal system
+- Notification center
+- Pricing cards
+- Testimonials
+- Webinar cards
+- Community feed cards
+- Video player UI
+- Quiz components
+- Analytics cards
+- Bento grid layouts
+- Mobile navigation
+
+Implement:
+- Dark/light mode toggle
+- Global layout system
+- Reusable design tokens
+- Responsive breakpoints
+- SEO metadata setup
+- Open Graph support
+- Structured schema markup
+- Protected routes
+- Authentication middleware
+- Role guards
+- Error boundaries
+- Toast notifications
+- Form validation
+- Rate limiting structure
+- API abstraction layer
+- Environment config system
+
+Database Requirements:
+Create Prisma models for:
+- Users
+- Roles
+- Courses
+- Lessons
+- Modules
+- Enrollments
+- Certificates
+- Institutions
+- Teachers
+- Students
+- Payments
+- Transactions
+- Blogs
+- Notes
+- Quizzes
+- Flashcards
+- Events
+- Communities
+- Jobs
+- Applications
+- Notifications
+- AI Recommendations
+- Search Results Cache
+
+Authentication Requirements:
+- Secure auth structure
+- Role-based access
+- Student role
+- Teacher role
+- Institution role
+- Admin role
+- Session handling
+- Password hashing structure
+- OAuth-ready architecture
+
+AI Recommendation Engine:
+Design architecture for:
+- Personalized recommendations
+- Skill gap analysis
+- Learning path generation
+- AI tutor suggestions
+- Job recommendation mapping
+- Adaptive learning suggestions
+
+Payment Architecture:
+- Stripe service structure
+- Razorpay service structure
+- Subscription-ready architecture
+- Invoice-ready architecture
+- Transaction logging
+- Payment webhook structure
+
+Create these additional files:
+- README.md
+- .env.example
+- docs/architecture.md
+- docs/deployment.md
+- docs/api.md
+- docs/ai-search.md
+
+Create deployment instructions for:
+- Vercel
+- Railway
+- Render
+- Docker
+
+Add these environment variables in .env.example:
+- DATABASE_URL
+- NEXTAUTH_SECRET
+- NEXT_PUBLIC_APP_URL
+- OPENAI_API_KEY
+- GOOGLE_SEARCH_API_KEY
+- GOOGLE_SEARCH_ENGINE_ID
+- YOUTUBE_API_KEY
+- STRIPE_SECRET_KEY
+- STRIPE_WEBHOOK_SECRET
+- RAZORPAY_KEY_ID
+- RAZORPAY_SECRET
+- PAYPAL_CLIENT_ID
+- PAYPAL_SECRET
+
+Technical Expectations:
+- Use TypeScript everywhere.
+- Use modern React patterns.
+- Use async/await.
+- Use clean architecture principles.
+- Separate services from UI.
+- Use reusable hooks.
+- Keep business logic modular.
+- Add comments only where necessary.
+- Make code scalable and maintainable.
+
+UI Expectations:
+- Billion-dollar startup quality
+- Premium futuristic visuals
+- Smooth transitions
+- Clean spacing
+- Interactive hover states
+- Soft gradients
+- Glassmorphism cards
+- Elegant typography
+- Minimal but rich design
+- Fully responsive
+
+Output Requirements:
+1. Generate full project structure.
+2. Generate production-ready code.
+3. Create reusable components.
+4. Create responsive layouts.
+5. Create Prisma schema.
+6. Create API route examples.
+7. Create AI search service structure.
+8. Create authentication structure.
+9. Create payment integration structure.
+10. Create deployment setup.
+11. Clearly identify mock/demo integrations.
+12. Include setup instructions.
+13. Include run commands.
+14. Include deployment instructions.
+15. Include notes for replacing demo APIs with real APIs later.
+
+When generating the project:
+- Start with folder structure.
+- Then generate configuration files.
+- Then generate Prisma schema.
+- Then generate reusable UI system.
+- Then generate layouts.
+- Then pages.
+- Then APIs.
+- Then services.
+- Then documentation.
+- Then deployment instructions.
+
+Generate the project in a clean professional structure suitable for Replit deployment and future enterprise scaling.
+```
+
+## HOW TO USE
+
+Paste this entire prompt into Replit AI, Replit Agent, Cursor, Lovable, or another AI coding environment. Ask it to generate the project step-by-step instead of all at once if token limits become an issue.
+
+For best results, first generate the project architecture and Prisma schema, then continue page-by-page and service-by-service. Replace mock API services with real API keys later using the included `.env.example` structure.
+
+Want me to also create:
+
+* a phased build plan,
+* Prisma schema starter,
+* Next.js boilerplate,
+* admin dashboard UI prompt,
+* AI search microservice prompt,
+* or a deployment optimization prompt?
